@@ -6,7 +6,7 @@ require('dotenv').config()
 
 function App() {
   return (
-    console.log(process.env.REACT_APP_GITHUB_TOKEN);
+    console.log(process.env.REACT_APP_GITHUB_TOKEN),
     <div>
       <Main />
     </div>
